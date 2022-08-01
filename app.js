@@ -12,8 +12,8 @@ import { renderCandyItem } from './render-candy.js';
 const candiesListEl = document.getElementById('candies-list');
 
 for (let candy of candies) {
-  const candiesEl = renderCandyItem(candy);
+    const candiesEl = renderCandyItem(candy);
 
-  candiesListEl.append(candiesEl);
+    candiesListEl.append(candiesEl);
 
 }
