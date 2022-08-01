@@ -9,9 +9,9 @@ for (let candy of candies){
     
 }
 
-function renderCandyItem(candy){
-    const pTag = document.createElement('p');
-    pTag.textContent = candy;
+function renderCandyItem(pieceOfCandy){
+    const pTag = document.createElement('div', 'p');
+    pTag.textContent = pieceOfCandy;
     pTag.classList.add('candies-list');
 
     return pTag;
