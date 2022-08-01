@@ -3,7 +3,7 @@ import { candies } from './candies-data.js';
 const candiesListEl = document.getElementById('candies-list');
 
 for (let candy of candies){
-    const candiesEl = renderCandyItem();
+    const candiesEl = renderCandyItem(candy);
 
     candiesListEl.append(candiesEl);
     
